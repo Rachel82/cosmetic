@@ -20,6 +20,7 @@ body {
   background-color: #995f4e;
   width: 100%;
   border-radius: 0px !important;
+  padding-bottom: 15px;
 }
 
 .navbar-brand {
@@ -77,8 +78,9 @@ body {
 }
 
 .carousel {
+background-color: white;
   position: relative;
-  margin-top: 300px;
+  margin-top: -30px;
   margin-bottom: 100px;
   width: 100%; 
 }
@@ -88,9 +90,6 @@ body {
     padding: 10px 200px 10px 200px;    
 }
 
-.carousel-inner {
-  background-color: #000;
-}
 
 
 h1 {  
@@ -105,18 +104,16 @@ h1 {
 
 
 h1 span {
+  width: 100%;
   background-color: #edd4c9;
   position:  fixed;
   z-index: 11;
-  margin: 11px 0 17px 0;
   font-size: 2.5em;
   line-height: 100px;
   color: #f2dbd2;
   text-shadow: 0 13.36px 8.896px #bc9b8d,0 -2px 1px #fff4ef;
   letter-spacing: -4px;
-  padding: 0 200px 0 200px;
-  margint-top: -130px;
-  width: 100%;
+
 }
 
 p {
