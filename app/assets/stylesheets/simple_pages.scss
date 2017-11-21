@@ -1,3 +1,153 @@
 // Place all the styles related to the simple_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+ 	background-color: #edd4c9;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+/**** Navigation Bar ****/
+
+.container-fluid {
+  padding: 0px;
+}
+
+.navbar {
+  background-color: #995f4e;
+  width: 100%;
+  border-radius: 0px !important;
+}
+
+.navbar-brand {
+  height: 100%;
+  width: auto;
+}
+
+.navbar-nav > li > a {
+  text-transform: uppercase;
+  font-size: 0.875em;
+  color: #edd4c9;
+  transition: 1s;
+  border-radius: 3px;
+  text-shadow: 0 0.36px 8px #bc9b8d, 0 -1px 0px #995f4e;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #b28c7a;
+}
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  transition: -0.9s;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-collapse {
+  display: block !important;
+}
+
+#subtitle {
+  padding-left: 250px;
+  padding-top: 10px;
+  display: none;
+  width: auto;
+}
+
+.dropdown-menu >li a {
+  transition: 0.5s;
+}
+
+
+/**** welcome ****/
+.welcome {
+  height: 100px;
+  margin-bottom:50px;
+  margin-top: -60px;
+}
+
+.carousel {
+  position: relative;
+  margin-top: 300px;
+  margin-bottom: 100px;
+  width: 100%; 
+}
+
+.carousel-inner>.itemactive>img {
+    width: 100%;
+    padding: 10px 200px 10px 200px;    
+}
+
+.carousel-inner {
+  background-color: #000;
+}
+
+
+h1 {  
+  position: fixed;
+  z-index: 11;
+  letter-spacing: 20px;
+  color: #202020;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  font-family: arial black;
+  margin-top: 100px;
+}
+
+
+h1 span {
+  background-color: #edd4c9;
+  position:  fixed;
+  z-index: 11;
+  margin: 11px 0 17px 0;
+  font-size: 2.5em;
+  line-height: 100px;
+  color: #f2dbd2;
+  text-shadow: 0 13.36px 8.896px #bc9b8d,0 -2px 1px #fff4ef;
+  letter-spacing: -4px;
+  padding: 0 200px 0 200px;
+}
+
+p {
+  position: fixed;
+  line-height: 12px;
+  font-weight: 700;
+  color: #985d4d;
+  text-transform: uppercase;
+  padding-top: 20px;
+  text-shadow: 0 9.36px 8.896px #bc9b8d,0 -1px 1px #fbf1ed;
+}
+
+/**** Content link image ****/
+
+.home-image {
+  margin-top: 200px;
+	padding-bottom: 40px;
+}
+
+.home-image 
+  h3.home {
+	color: #985d4d;
+}
+
+.home-image.bottom1 {
+	padding-left: 30px;
+}
+
+.home-image.bottom2 {
+	padding-right: 30px;
+}
+
+p#notice {
+	color: white; 
+}

@@ -2,13 +2,61 @@
 <html>
   <head>
     <title>Cosmetic</title>
-    <%= csrf_meta_tags %>
-
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%= csrf_meta_tags %>
   </head>
 
-  <body>
+  <body data-spay="scroll" data-target=".navbar">
+    <!-- ============================= -->
+    <!-- NavBar Starts Here -->
+    <!-- ============================= -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div><!-- end navbar header -->        
+      <!-- start Navbar-collapse -->
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+              <img src="img/subtitlelogo.png" id="subtitle" class="image-responsive">
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="#home">home</a></li>
+                <li><a href="#services">about</a></li>
+                <li><a href="#about">shipping</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">makeup<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#portfolio">face</a></li>
+                    <li><a href="#portfolio">eyes</a></li>
+                    <li><a href="#portfolio">lip</a></li>
+                    <li><a href="#portfolio">tools</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#portfolio">All</a></li>
+                  </ul>
+                </li>
+                <li><a href="#faq">contact</a></li>
+                <li><a href="#contact">search</a></li>
+              </ul>
+            </div><!-- end navbar-collapse -->
+      </div><!-- end Navbar container-fluid -->
+  </nav><!-- end Navbar -->
+
+
     <%= yield %>
+    <footer>
+    	footer
+    </footer>
   </body>
 </html>
