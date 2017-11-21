@@ -78,8 +78,8 @@ body {
 }
 
 .carousel {
-background-color: white;
-  position: relative;
+  background-color: white;
+  position: fixed;
   margin-top: -30px;
   margin-bottom: 100px;
   width: 100%; 
@@ -128,22 +128,8 @@ p {
 
 /**** Content link image ****/
 
-.home-image {
-  margin-top: 200px;
-	padding-bottom: 40px;
-}
-
-.home-image 
-  h3.home {
-	color: #985d4d;
-}
-
-.home-image.bottom1 {
-	padding-left: 30px;
-}
-
-.home-image.bottom2 {
-	padding-right: 30px;
+footer {
+  height: 100px;
 }
 
 p#notice {
