@@ -87,3 +87,25 @@ p.product-price {
 	height: 600px;
 	box-shadow: 0px 0px 0px 7px #FFF;
 }
+
+/**** Show ****/
+p#notice-show {
+position: relative;
+	text-align: center;
+}
+
+img.image-responsive {
+	padding: 100px;
+}
+
+.row-show {
+	margin-top: 100px;
+}
+p.show,
+p.name-show,
+p.description-show,
+p.image-show,
+p.color-show,
+p.price-show {
+	position: static;
+}
