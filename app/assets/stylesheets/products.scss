@@ -9,21 +9,72 @@
 
 
 .container-fluid h1 {
-	margin-top: 100px;
+	margin-top: 80px;
 	text-align: center;
 }
 
 .container-fluid img {
+	margin-top: -120px;
 	width: 100%;
-	padding: 15px;
+	padding: 70px;
 }
 
 
 /**** New Products ****/
 
-h1.products {
+h1.products-list {
+	position: fixed;
+	padding: 80px 500px 25px 500px;
+	z-index: 2;
+	background-color: #edd4c9;
 	color: white;
+	text-transform: uppercase;
+  letter-spacing: -2px;
+  font-family: arial black;
 	text-shadow: 0 8.36px 8.896px #bc9b8d,0 -2px 1px #fff4ef;
+	margin-top: -170px;
+	padding-top: 80px;
+}
+
+p#notice {
+	position: fixed;
+	padding: 10px 610px 15px 610px;
+	margin-top: -26px;
+	z-index: 1;
+	background-color: #edd4c9;
+}
+
+h1.product-name {
+	margin-top: -145px;
+	text-align: center;
+	text-transform: uppercase;
+  letter-spacing: -2px;
+	font-family: arial black;
+}
+
+h1.product-name:hover {
+	width: 366px;
+	margin-left: 15px;
+	opacity: 0.9;
+	background-color: #efcebd;
+}
+
+.row_products a:hover {
+	text-decoration: none;
+}
+
+p.product-description {
+	position: static;
+	margin-top: -25px;
+	margin-bottom: 50px;
+	text-shadow: none;
+}
+
+p.product-price {
+	position: static;
+	margin-top: -50px;
+	margin-bottom: 70px;
+	text-shadow: none;
 }
 
 .product-space {

@@ -1,6 +1,6 @@
 
   <div class="container-fluid">
-    <h1 class="products">Product List</h1>
+    <h1 class="products-list">Product List</h1>
     <p id="notice">HELLO<%= notice %></p>
   </div>
 
@@ -9,9 +9,9 @@
       <% @products.each do |product| %>
         <div class="col-sm-2 col-md-4">
           <%= image_tag(product.image_url) %>
-          <a href="#"><h1 class="product_name"><%= product.name %></h1></a>
-          <p class="product_description"><%= product.description %></p>
-          <p class="product_price"><%= product.price %></p>
+          <a href="#"><h1 class="product-name"><%= product.name %></h1></a>
+          <p class="product-description"><%= product.description %></p>
+          <p class="product-price">EUR &nbsp;<%= product.price %></p>
         </div><!-- /col -->
       <% end %>
     </div>
